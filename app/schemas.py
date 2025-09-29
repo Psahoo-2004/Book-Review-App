@@ -14,7 +14,6 @@ class UpdateUser(BaseModel):
 class UserOut(BaseModel):
     id: int
     email: EmailStr
-    # created_at: datetime  # Uncomment if you want to expose this
 
     class Config:
         from_attributes = True
