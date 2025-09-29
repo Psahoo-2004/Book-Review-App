@@ -1,0 +1,38 @@
+Book Review API 📚
+
+Description:
+Build an API where users can add books, submit reviews, and see average ratings for each book.
+
+Core Features:
+
+Users: Register & login (basic authentication or JWT).
+
+Books: CRUD endpoints (add, update, delete, list books).
+
+Reviews: Users can add reviews & ratings for a book.
+
+Rating Aggregation: Show average rating per book.
+
+Why it’s good for beginners:
+
+Covers all CRUD operations on multiple models (Users, Books, Reviews).
+
+Introduces relationships (one-to-many: Book → Reviews).
+
+Gives practice with authentication/authorization.
+
+Teaches response models and validation with Pydantic.
+
+Expandable — you can later add search, pagination, or a frontend.
+
+Optional Add-ons:
+
+File upload (cover image for books).
+
+Sorting/filtering by rating or genre.
+
+Swagger docs customization.
+
+
+
+# 9337352433
